@@ -102,7 +102,7 @@ class Validation {
       throw new Error("Invalid input");
     }
 
-    if (username.length < 2) {
+    if (username.length < 4) {
       throw new Error("Username is too short");
     }
   }
@@ -112,7 +112,7 @@ class Validation {
       throw new Error("Invalid input");
     }
 
-    if (password.length < 3) {
+    if (password.length < 6) {
       throw new Error("Password is too short");
     }
   }
